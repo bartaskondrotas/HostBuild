@@ -1,0 +1,71 @@
+root@HPG8:~# history
+    1  sed -i.bak "s/data.status !== 'Active'/false/g" /usr/share/javascript/proxmox-widget-toolkit/proxmoxlib.js && systemctl restart pveproxy.service
+    2  wipefs /dev/sda
+    3  ls /dev/disk/by-id/
+    4  pveam update
+    5  apt install mdadm
+    6  sudo apt update
+    7  apt update
+    8  apt install mdadm
+    9  fdisk -l
+   10  fdisk -l
+   11  fdisk -l
+   12  wipefs -a -f /dev/sdb
+   13  wipefs -a -f /dev/sdc
+   14  fdisk -l
+   15  lsblk
+   16  wipefs -a -f /dev/sdb
+   17  lsblk
+   18  mdadm --zero-superblock /dev/sdb
+   19  mdadm --zero-superblock /dev/sdb/md127
+   20  wipe /dev/sdb
+   21  wipefs /dev/sdb
+   22  wipefs /dev/sdc
+   23  mdadm --zero-superblock /dev/sdb
+   24  parted /dev/sdb mklabel msdos
+   25  dd if=/dev/zero of=/dev/sdb bs=512 count=1
+   26  lsblk
+   27  mdadm --zero-superblock /dev/sdb
+   28  lsblk
+   29  mdadm --create --verbose /dev/md0 --level=1 --raid-devices=2 /dev/sda /dev/sdb
+   30  cat /proc/mdstat
+   31  cat /proc/mdstat
+   32  cat /proc/mdstat
+   33  cat /proc/mdstat
+   34  mdadm --detail --scan
+   35  mdadm --detail --scan | sudo tee -a /etc/mdadm/mdadm.conf
+   36  mdadm --detail --scan | tee -a /etc/mdadm/mdadm.conf
+   37  cat /etc/mdadm/mdadm.conf
+   38  nano  /etc/mdadm/mdadm.conf
+   39  update-initramfs -u
+   40  cat /proc/mdstat
+   41  cat /proc/mdstat
+   42  ls /dev/disk/by-id/
+   43  qm set 100 -virtio2 /dev/disk/by-id/md-uuid-2efa7051:8be28f60:43f3bf16:67f56f24
+   44  sfdisk
+   45  cat /proc/mdstat
+   46  cat /proc/mdstat
+   47  cat /proc/mdstat
+   48  sync
+   49  lsblk
+   50  mdadm --manage /dev/md0 --fail /dev/sdb
+   51  md --manage /dev/md0 --remove /dev/sdb
+   52  mdadm --manage /dev/md0 --remove /dev/sdb
+   53  cat /proc/mdstat
+   54  /sbin/mdadm --detail /dev/md0
+   55  lsblk
+   56  /sbin/mdadm --detail /dev/md0
+   57  cat /proc/mdstat
+   58  sfdisk -d /dev/sda | sfdisk /dev/sdb
+   59  dadm --manage /dev/md0 --add /dev/sdb
+   60  mdadm --manage /dev/md0 --add /dev/sdb
+   61  cat /proc/mdstat
+   62  cat /proc/mdstat
+   63  cat /proc/mdstat
+   64  lsblk
+   65  sfdisk -d /dev/sdb | sfdisk /dev/sda
+   66  mdadm --manage /dev/md0 --add /dev/sda
+   67  cat /proc/mdstat
+   68  cat /proc/mdstat
+   69  cat /proc/mdstat
+   70  history
